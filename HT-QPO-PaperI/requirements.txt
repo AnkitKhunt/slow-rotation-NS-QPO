@@ -1,0 +1,16 @@
+# HT QPO code v4 -- Python >= 3.10 (tested with 3.10 and 3.13).
+# Tested at both ends:
+#   oldest: numpy 1.24.4, scipy 1.10.1, matplotlib 3.8.0, pandas 1.5.3,
+#           bilby 2.8.2, dynesty 3.1.0, corner 2.3.0          (Python 3.10)
+#   newest: numpy 2.5.3, scipy 1.18.1, matplotlib 3.11.2,
+#           bilby 2.8.2, dynesty 3.1.0                         (Python 3.13)
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.8      # 3.8 or newer is needed for \boldsymbol in the figure labels
+pandas>=1.5
+
+# Only for step 5 (fits without an EOS by nested sampling).  Steps 1-4 and
+# 6-7 run without them.
+bilby>=2.0
+dynesty>=2.1,<3.2    # dynesty 3.2.0 removed a function that bilby 2.8.2 imports
+corner>=2.2

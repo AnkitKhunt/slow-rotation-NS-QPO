@@ -1,0 +1,9 @@
+{
+ "sources": [
+  {
+   "name": "GX5-1",
+   "data": "../data/GX5-1.csv",
+   "spin": null
+  }
+ ]
+}

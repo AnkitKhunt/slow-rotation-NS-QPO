@@ -1,0 +1,7 @@
+{
+  "sources": [
+    {"name": "4U1728-34", "data": "../data/4U1728-34_kHz.csv", "spin": [363.0, 1.0]},
+    {"name": "GX5-1",     "data": "../data/GX5-1_kHz.csv",     "spin": null},
+    {"name": "GX340+0",   "data": "../data/GX340+0_kHz.csv",   "spin": null}
+  ]
+}
