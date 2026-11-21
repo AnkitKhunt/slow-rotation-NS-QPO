@@ -1,3 +1,4 @@
+
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper below."
 title: "HT-QPO-PaperI: relativistic precession around slowly rotating neutron stars"
@@ -9,7 +10,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-11-14"
 license: MIT
-repository-code: "https://github.com/<your-username>/HT-QPO-PaperI"
+repository-code: "https://github.com/AnkitKhunt/HT-QPO-PaperI"
 keywords:
   - neutron stars
   - Hartle-Thorne
@@ -19,7 +20,9 @@ preferred-citation:
   type: article
   authors:
     - family-names: Khunt
-      given-names: Ankit C.
+      given-names: A. C.
   title: "Relativistic precession around rotating neutron stars. I. Slow rotation: Hartle-Thorne spacetimes, particle orbits and the QPOs of atoll and Z sources"
   year: 2026
-  notes: "In preparation; add the arXiv number and journal reference when available."
+  journal: "arXiv"
+  eprint: "2611.19502"
+  url: "https://arxiv.org/abs/2611.19502"
